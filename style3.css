@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: black;
+	height: 64px;
+	display: flex;	
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 48px;
+}
+
+header h1{
+	font-size: 24px;
+	font-weight: 900;
+	color: white;
+	flex: 1 0 0;
+
+line-height: 65px;
+}
+
+header nav{
+	flex: 1 0 0;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav a {
+	margin: 0 0 0 16px;
+	text-decoration: none;
+	color: white;
+}
+
+
+.content{
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-content{
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.range{
+	margin-top: 112px;
+	height: 64px;
+	margin-bottom: 56px;
+
+	border-bottom : 1px solid  rgba(0, 0, 0, 0.35);
+}
+
+
+.product{
+	height: 1024px;
+	margin-bottom: 128px;
+}
+
+.main-img{
+	width: 624px;
+	height: 640px;
+	float: left;
+}
+
+.info{
+	width: 624px;
+	height: 1024px;
+	
+ 	  float: right;
+ 	  padding-top: 22px;
+ 	  
+}
+.preview{
+	float: left;
+	width: 624px;
+	height: 176px;
+	margin-top: 56px;
+
+}
+.preview-img{
+	width: 176px;
+	height: 176px;
+	margin: 0;
+	padding: 0;
+}
+
+.preview-img:nth-child(2){
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+.tab{
+	height: 88px;
+	
+	border-bottom: 1px solid  rgba(0, 0, 0, 0.35);
+
+}
+
+.tab h2{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: black;
+padding-top: 20px;
+margin-left: 80px;
+
+}
+div .option{
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: black;
+	margin-left: 30px;
+	width: 300px;
+	margin-top: 24px;
+}
+label{
+	width: 100%;
+}
+select{
+	width: 100%;
+}
+.info-detail{
+	margin-left: 32px;
+		margin-right: 32px;
+	padding-bottom: 24px;
+	padding-top: 24px;
+		border-bottom: 1px solid  rgba(0, 0, 0, 0.15);
+}
+button{
+margin-top: 40px;
+width: 560px;
+height: 80px;
+background:  #2A30FF;
+color: white;
+outline: 0;
+border: 0;
+font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+ font-size: 24px;
+}
+
+button:hover{
+ background: #0078FF;
+}
